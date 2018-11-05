@@ -10,8 +10,7 @@ function maxChar(str) {
     for(let el of str) {
         chars[el] = chars[el] + 1 || 1; 
     }
-        
-   
+
     let maxChar = '';
     let maxCount = 0;
     Object.keys(chars).forEach( key => {
